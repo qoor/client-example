@@ -1,0 +1,15 @@
+# CMake build entries
+**/CMakeFiles
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+compile_commands.json
+
+# Binaries
+client
+
+# Program Outputs
+generated.xml
+
+# clangd
+/.cache

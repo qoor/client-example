@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MPSv2>
+  <MPS_INFO>
+    <MPS_1>1</MPS_1>
+    <MPS_AG_Download_NowDate>20210319</MPS_AG_Download_NowDate>
+    <MPS_AG_LoginDialogSkip>1</MPS_AG_LoginDialogSkip>
+    <MPS_AG_Menu_Approval>1</MPS_AG_Menu_Approval>
+    <MPS_AG_Menu_Request>1</MPS_AG_Menu_Request>
+    <MPS_AG_Notification>1</MPS_AG_Notification>
+    <MPS_AG_Notification_Approval>http://192.168.4.36:8080/app/pending/FindPendingList.do</MPS_AG_Notification_Approval>
+    <MPS_AG_Notification_Request>http://192.168.4.36:8080/app/submit/FindSubmitList.do</MPS_AG_Notification_Request>
+    <MPS_AG_Notification_Time>10</MPS_AG_Notification_Time>
+    <MPS_AG_TrayIcon>1</MPS_AG_TrayIcon>
+    <MPS_AG_TrayMenu>0</MPS_AG_TrayMenu>
+    <MPS_LI_ImagePrefix>MPS_I_</MPS_LI_ImagePrefix>
+    <MPS_LI_TextPrefix>MPS_T_</MPS_LI_TextPrefix>
+    <MPS_PASSWORD_KEY>A6xnQhbz4Vx2HuGlGl</MPS_PASSWORD_KEY>
+    <MPS_PU_AcapVisiblePrint>0</MPS_PU_AcapVisiblePrint>
+    <MPS_PU_ColorPrinter>0</MPS_PU_ColorPrinter>
+    <MPS_PU_ImageLog>1</MPS_PU_ImageLog>
+    <MPS_PU_ImageLogEnd>3</MPS_PU_ImageLogEnd>
+    <MPS_PU_ImageLogStart>1</MPS_PU_ImageLogStart>
+    <MPS_PU_ImageLogType>1</MPS_PU_ImageLogType>
+    <MPS_PU_LogEncrypt>0</MPS_PU_LogEncrypt>
+    <MPS_PU_PDF_Watermark>1</MPS_PU_PDF_Watermark>
+    <MPS_PU_Print>1</MPS_PU_Print>
+    <MPS_PU_Print_Detail_Count>2</MPS_PU_Print_Detail_Count>
+    <MPS_PU_Print_Detail_Id_1>1</MPS_PU_Print_Detail_Id_1>
+    <MPS_PU_Print_Detail_Id_2>2</MPS_PU_Print_Detail_Id_2>
+    <MPS_PU_Print_LoginCheck>0</MPS_PU_Print_LoginCheck>
+    <MPS_PU_PrintLog>1</MPS_PU_PrintLog>
+    <MPS_PU_Privacy>0</MPS_PU_Privacy>
+    <MPS_PU_Privacy_Request_URL>http://192.168.4.36:8080/app/submit/RegistPrintPermissionPopup.do</MPS_PU_Privacy_Request_URL>
+    <MPS_PU_Skip_HPGLPrinter>1</MPS_PU_Skip_HPGLPrinter>
+    <MPS_PU_Skip_PostScriptPrinter>1</MPS_PU_Skip_PostScriptPrinter>
+    <MPS_PU_TextLog>1</MPS_PU_TextLog>
+    <MPS_PU_TextLogEnd>3</MPS_PU_TextLogEnd>
+    <MPS_PU_TextLogPageType>0</MPS_PU_TextLogPageType>
+    <MPS_PU_TextLogStart>1</MPS_PU_TextLogStart>
+    <MPS_PU_TextLogType>1</MPS_PU_TextLogType>
+    <MPS_PU_TonerSave>1</MPS_PU_TonerSave>
+    <MPS_PU_User_Del>1</MPS_PU_User_Del>
+    <MPS_PU_Watermark>1</MPS_PU_Watermark>
+    <MPS_PU_Watermark_Detail_Count>2</MPS_PU_Watermark_Detail_Count>
+    <MPS_PU_Watermark_Detail_Id_3>3</MPS_PU_Watermark_Detail_Id_3>
+    <MPS_PU_Watermark_Detail_Id_4>4</MPS_PU_Watermark_Detail_Id_4>
+    <MPS_PUD_1_PortAllow>aaaa</MPS_PUD_1_PortAllow>
+    <MPS_PUD_1_PrinterAllow>|NPS PDF Converter|</MPS_PUD_1_PrinterAllow>
+    <MPS_PUD_1_ProcessAllow>aaaa</MPS_PUD_1_ProcessAllow>
+    <MPS_PUD_2_PortForbid>bbbb</MPS_PUD_2_PortForbid>
+    <MPS_PUD_2_PrinterForbid>|Adobe PDF|</MPS_PUD_2_PrinterForbid>
+    <MPS_PUD_2_ProcessForbid>bbbb</MPS_PUD_2_ProcessForbid>
+    <MPS_PUD_3_PortAllow>cccc</MPS_PUD_3_PortAllow>
+    <MPS_PUD_3_PrinterAllow>|NPS PDF Converter|</MPS_PUD_3_PrinterAllow>
+    <MPS_PUD_3_ProcessAllow>cccc</MPS_PUD_3_ProcessAllow>
+    <MPS_PUD_4_PortAllow>dddd</MPS_PUD_4_PortAllow>
+    <MPS_PUD_4_PrinterAllow>|NPS PDF Converter|</MPS_PUD_4_PrinterAllow>
+    <MPS_PUD_4_ProcessAllow>dddd</MPS_PUD_4_ProcessAllow>
+    <MPS_SI_ImageSTORAGE>/home/drmweb/PrintSAFER/Log/Image_Storage</MPS_SI_ImageSTORAGE>
+    <MPS_SI_Java_Service>2</MPS_SI_Java_Service>
+    <MPS_SI_Log_JavaIp>192.168.4.36</MPS_SI_Log_JavaIp>
+    <MPS_SI_Log_JavaPort>40002</MPS_SI_Log_JavaPort>
+    <MPS_SI_Port>40001</MPS_SI_Port>
+    <MPS_SI_ServerIp>192.168.4.36</MPS_SI_ServerIp>
+    <MPS_SI_Takeout_Port>40005</MPS_SI_Takeout_Port>
+    <MPS_SI_TextSTORAGE>/home/drmweb/PrintSAFER/Log/Text_Storage</MPS_SI_TextSTORAGE>
+    <MPS_UI_Dept_Code>DRM_DEV</MPS_UI_Dept_Code>
+    <MPS_UI_Dept_Name>제품개발팀</MPS_UI_Dept_Name>
+    <MPS_UI_Group_Code>DRM_DEV</MPS_UI_Group_Code>
+    <MPS_UI_Group_Name>제품개발팀</MPS_UI_Group_Name>
+    <MPS_UI_Pos_Code>POSI_000000000005000</MPS_UI_Pos_Code>
+    <MPS_UI_Pos_Name>대리</MPS_UI_Pos_Name>
+    <MPS_UI_User_ID>user01</MPS_UI_User_ID>
+    <MPS_UI_User_Name>사용자1</MPS_UI_User_Name>
+    <MPS_WI_Angle1>0</MPS_WI_Angle1>
+    <MPS_WI_Angle2>0</MPS_WI_Angle2>
+    <MPS_WI_Band1>1</MPS_WI_Band1>
+    <MPS_WI_Band2>1</MPS_WI_Band2>
+    <MPS_WI_Count>2</MPS_WI_Count>
+    <MPS_WI_Data1>c:\MarkAny\PrintSafer\Images\WM20200514114025028.png</MPS_WI_Data1>
+    <MPS_WI_Data2>/NI00//NI01//NI05//NI03//SI00//DI01/</MPS_WI_Data2>
+    <MPS_WI_Depth1>20</MPS_WI_Depth1>
+    <MPS_WI_Desc1>TEST 이미지 워터마크2</MPS_WI_Desc1>
+    <MPS_WI_Desc2>TEST 텍스트 워터마크</MPS_WI_Desc2>
+    <MPS_WI_DibDepth1>4</MPS_WI_DibDepth1>
+    <MPS_WI_DibDepth2>2</MPS_WI_DibDepth2>
+    <MPS_WI_Font2>Arial</MPS_WI_Font2>
+    <MPS_WI_FontAttrib2>0</MPS_WI_FontAttrib2>
+    <MPS_WI_FontColor2>125</MPS_WI_FontColor2>
+    <MPS_WI_FontSizeX2>10</MPS_WI_FontSizeX2>
+    <MPS_WI_FontSizeY2>10</MPS_WI_FontSizeY2>
+    <MPS_WI_ImageUrlPath1>http://192.168.4.36:8080/images/watermark/WM20200514114025028.png</MPS_WI_ImageUrlPath1>
+    <MPS_WI_Mode1>1</MPS_WI_Mode1>
+    <MPS_WI_Mode2>0</MPS_WI_Mode2>
+    <MPS_WI_PosX1>50</MPS_WI_PosX1>
+    <MPS_WI_PosX2>70</MPS_WI_PosX2>
+    <MPS_WI_PosY1>50</MPS_WI_PosY1>
+    <MPS_WI_PosY2>90</MPS_WI_PosY2>
+    <MPS_WI_Tile1>0</MPS_WI_Tile1>
+    <MPS_WI_Tile2>0</MPS_WI_Tile2>
+    <MPS_WI_Type1>0</MPS_WI_Type1>
+    <MPS_WI_Type2>2</MPS_WI_Type2>
+    <MPS_WI_Zoom1>100</MPS_WI_Zoom1>
+  </MPS_INFO>
+</MPSv2>
