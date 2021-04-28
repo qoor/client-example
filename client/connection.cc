@@ -1,3 +1,14 @@
+/**
+ * \file        connection.cc
+ *
+ * \brief       Client connection interface
+ *
+ * \date        2021.04.27.
+ *
+ * \author      Sangwoo Ma <swma@markany.com>
+ *
+ * \copyright   MarkAny Inc. 2021.
+ */
 #include "connection.h"
 
 bool Connection::Connect(const char* ip, unsigned short port) {

@@ -1,3 +1,14 @@
+/**
+ * \file        xml.cc
+ *
+ * \brief       Xml simple interface
+ *
+ * \date        2021.04.28.
+ *
+ * \author      Sangwoo Ma <swma@markany.com>
+ *
+ * \copyright   MarkAny Inc. 2021.
+ */
 #include "xml.h"
 
 inline static void PrintSpaces(int amount) {

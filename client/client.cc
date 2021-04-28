@@ -1,15 +1,14 @@
 /**
  * \file        client.cc
  *
- * \brief       Simple client example source
+ * \brief       Main of simple client example
  *
  * \date        2021.04.27.
  *
- * \author      Sang Woo Ma <swma@markany.com>
+ * \author      Sangwoo Ma <swma@markany.com>
  *
  * \copyright   MarkAny Inc. 2021.
  */
-
 #include <cassert>
 #include <cstdio>
 #include <cstring>

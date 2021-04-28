@@ -1,3 +1,14 @@
+/**
+ * \file        xml.h
+ *
+ * \brief       Xml simple interface
+ *
+ * \date        2021.04.28.
+ *
+ * \author      Sangwoo Ma <swma@markany.com>
+ *
+ * \copyright   MarkAny Inc. 2021.
+ */
 #ifndef CLIENT_XML_H_
 #define CLIENT_XML_H_
 
