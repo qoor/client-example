@@ -33,7 +33,7 @@ class Xml {
     }
 
     Reset();
-    int error = doc_.LoadFile(file);
+    auto error = doc_.LoadFile(file);
     if (tinyxml2::XML_SUCCESS != error) {
       Reset();
       printf("Failed to load file: %s\n", file);

@@ -20,9 +20,9 @@ bool Xml::GenerateSample() {
   Reset();
 
   // Do not release these resources because XML document want these
-  tinyxml2::XMLDeclaration* decl = doc_.NewDeclaration();
-  tinyxml2::XMLElement* map = doc_.NewElement("map");
-  tinyxml2::XMLElement* object = doc_.NewElement("object");
+  auto* decl = doc_.NewDeclaration();
+  auto* map = doc_.NewElement("map");
+  auto* object = doc_.NewElement("object");
   if (!decl || !map || !object) return false;
 
   // <map type="object" version="alpha">
