@@ -14,6 +14,13 @@ bool Xml::GenerateSample() {
   tinyxml2::XMLElement* object = doc_.NewElement("object");
   if (!decl || !map || !object) return false;
 
+  // <map type="object" version="alpha">
+  map->SetAttribute("type", "object");
+  map->SetAttribute("version", "alpha");
+
+  // <object>Hello, I'm a object</object>
+  object->SetText("Hello, I'm a object.");
+
   // <map> <-    attach "object" element to "map" element
   //         |
   //     <object ... />
@@ -21,7 +28,7 @@ bool Xml::GenerateSample() {
 
   // (XML document)
   // <?xml ...?> <- add declaration
-  // <map> <- add root element
+  // <map> <- add root element "map"
   //     ... <- maybe one "object" element
   doc_.LinkEndChild(decl);
   doc_.LinkEndChild(map);
