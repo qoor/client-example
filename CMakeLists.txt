@@ -13,7 +13,9 @@ pkg_check_modules(tinyxml tinyxml2 REQUIRED)
 pkg_check_modules(openssl openssl REQUIRED)
 
 set(SOURCES
-  client/client.cc)
+  client/client.cc
+  client/connection.cc
+  client/xml.cc)
 
 add_executable(client ${SOURCES})
 set_target_properties(client PROPERTIES CXX_STANDARD 14 C_STANDARD 90)
